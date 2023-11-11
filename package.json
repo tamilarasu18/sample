@@ -4,12 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "react-scripts dev",
+    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "start": "react-scripts start",
-    "lint": "react-scripts lint"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.0.2",
